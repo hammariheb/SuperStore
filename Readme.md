@@ -66,15 +66,15 @@ Promotion des en-têtes des colonnes.
 
 en utilisant les colonnes de jointure Sub_Category et Ship Status.
 
-13. Gestion des espaces dans les colonnes :
+15. Gestion des espaces dans les colonnes :
 
 Correction des colonnes Category et Region en utilisant la fonction Trim pour enlever les espaces, permettant une jointure correcte avec la table Targets.
 
-14. Création de colonnes de relation :
+16. Création de colonnes de relation :
 
 Création de colonnes de relation dans chaque table utilisée pour les multi-jointures (Targets, Risk_Levels, et Superstore) afin de gérer les relations dans le modèle associé et assurer un bon filtrage des données.
 
-15. Ajout d'une colonne de précision des ventes :
+17. Ajout d'une colonne de précision des ventes :
 
 Ajout d'une colonne Sales Accuracy pour calculer la différence entre Sales et Sales F'cast.
 
