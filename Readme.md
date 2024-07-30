@@ -7,61 +7,80 @@ Le fichier Superstore contient les données de ventes. Voici les étapes de nett
 1. Élimination des doublons :
 
 Suppression des doublons de la colonne Order_ID car elle représente la clé primaire et doit être unique.
+
 2. Réorganisation des colonnes :
 
 Réorganisation des colonnes pour une meilleure visibilité.
+
 3. Suppression des colonnes inutiles :
 
 Suppression des colonnes Field et Sub-Category1 car elles n'avaient pas de sens dans le contexte des données.
+
 4. Conversion de type :
 
 Changement du type de la colonne Order_Date en type Date.
+
 5. Nettoyage des données clients :
 
 Suppression des doublons de la colonne Customer_Name.
+
 6. Rationalisation des données produits :
 
 Suppression de la colonne Manufactor car elle était identique à la colonne Product_Name.
 Séparation de la colonne Product_Name en deux colonnes distinctes : Manufactor et Product_Name.
+
 7. Nettoyage des données géographiques :
 
 Suppression des espaces dans la colonne Country.
 Changement du nom de la colonne City City City en City et mise en majuscules des valeurs pour plus de clarté.
+
 8. Nettoyage des données de livraison :
 
 Changement du type de la colonne Days to Ship (Actual) en Whole Number et remplacement des erreurs par la moyenne de la colonne pour assurer que les jours restants de livraison soient un nombre entier.
 Application du même traitement à la colonne Days to Ship (Scheduled).
+
 9. Correction des statuts d'expédition :
 
 Ajout d'une colonne conditionnelle pour corriger les erreurs de saisie dans la colonne Ship Status, ne gardant que les valeurs Early, On Time et Late. La colonne initiale a ensuite été supprimée.
+
 10. Arrondissement des valeurs financières :
 
 Arrondissement des valeurs de la colonne Profit per Order à deux chiffres après la virgule.
+
 11. Correction des prévisions de ventes :
 
 Remplacement des valeurs incorrectes de la colonne Sales F'cast par la moyenne de la colonne (399).
+
 12. Nettoyage des données des ambassadeurs :
 
 Promotion des en-têtes de la table Embassadors en première ligne.
 Jointure de la table Embassadors avec la table Superstore par la colonne Region.
-Jointures avec d'autres tables :
+
+13. Jointures avec d'autres tables :
 
 Jointure de la table Superstore avec la table Country_Rating en utilisant la colonne Country.
 Jointure de la table Superstore avec la table Order_Codes en utilisant la colonne Order_ID.
 Promotion des en-têtes des colonnes.
-Multi-jointure avec la table des faits Superstore en utilisant les colonnes de jointure Sub_Category et Ship Status.
+
+14. Multi-jointure avec la table des faits Superstore:
+
+en utilisant les colonnes de jointure Sub_Category et Ship Status.
+
 13. Gestion des espaces dans les colonnes :
 
 Correction des colonnes Category et Region en utilisant la fonction Trim pour enlever les espaces, permettant une jointure correcte avec la table Targets.
+
 14. Création de colonnes de relation :
 
 Création de colonnes de relation dans chaque table utilisée pour les multi-jointures (Targets, Risk_Levels, et Superstore) afin de gérer les relations dans le modèle associé et assurer un bon filtrage des données.
+
 15. Ajout d'une colonne de précision des ventes :
 
 Ajout d'une colonne Sales Accuracy pour calculer la différence entre Sales et Sales F'cast.
-Visualisation des données
 
-### Après le nettoyage des données: 
+### Visualisation des données
+
+Après le nettoyage des données: 
 nous avons créé plusieurs visualisations pour analyser et interpréter les données. 
 Voici les principales visualisations réalisées :
 
