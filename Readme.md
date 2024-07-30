@@ -81,7 +81,9 @@ Ajout d'une colonne Sales Accuracy pour calculer la différence entre Sales et S
 ### Visualisation des données
 
 Après le nettoyage des données: 
-nous avons créé plusieurs visualisations pour analyser et interpréter les données. 
+nous avons créé plusieurs visualisations pour analyser et interpréter les données (Rapport.pbix)
+sinon en pdf [Dashboard](Rapport.pdf)
+
 Voici les principales visualisations réalisées :
 
 1. Analyse des Ventes et des Bénéfices :
