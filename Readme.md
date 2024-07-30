@@ -82,7 +82,7 @@ Ajout d'une colonne Sales Accuracy pour calculer la différence entre Sales et S
 
 Après le nettoyage des données: 
 nous avons créé plusieurs visualisations pour analyser et interpréter les données (Rapport.pbix)
-sinon en pdf [Dashboard](Rapport.pdf)
+sinon en pdf [Dashboard](Rapport_dash.pdf)
 
 Voici les principales visualisations réalisées :
 
