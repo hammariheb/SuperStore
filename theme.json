@@ -1,0 +1,37 @@
+{
+    "name": "Dynamic Modern Theme",
+    "dataColors": [
+        "#FF5733", "#33FF57", "#3357FF", "#F333FF", "#FF33A2", "#33FFF5", "#A2FF33", "#FF5733", "#FF33F3", "#33FFF3"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "tableAccent": "#FF5733",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "general": {
+                    "transparency": 10
+                },
+                "title": {
+                    "fontFamily": "Arial",
+                    "fontSize": 14,
+                    "fontColor": "#000000"
+                },
+                "labels": {
+                    "fontFamily": "Arial",
+                    "fontSize": 12,
+                    "fontColor": "#000000"
+                },
+                "background": {
+                    "color": "#FFFFFF",
+                    "transparency": 0
+                },
+                "border": {
+                    "color": "#DDDDDD",
+                    "weight": 1,
+                    "transparency": 50
+                }
+            }
+        }
+    }
+}
