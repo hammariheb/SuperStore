@@ -78,7 +78,7 @@ Création de colonnes de relation dans chaque table utilisée pour les multi-joi
 
 Ajout d'une colonne Sales Accuracy pour calculer la différence entre Sales et Sales F'cast.
 
-### Visualisation des données
+# Visualisation des données
 
 Après le nettoyage des données: 
 nous avons créé plusieurs visualisations pour analyser et interpréter les données (Rapport.pbix)
